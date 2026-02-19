@@ -237,6 +237,28 @@ body {
         width: 3rem;
         height: 3rem;
     }
+    
+    /* Adjust floating bubbles on mobile */
+    .floating-icons:nth-child(1) {
+        bottom: 10px !important;
+        right: 5px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .floating-icons:nth-child(2) {
+        top: 60% !important;
+        right: 10px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
+    .floating-icons:nth-child(3) {
+        top: 20% !important;
+        right: 15% !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
 }
 
 /* Extra small screens */
@@ -263,6 +285,28 @@ body {
     .orbit-icon {
         width: 2.5rem;
         height: 2.5rem;
+    }
+    
+    /* Further adjust floating bubbles for very small screens */
+    .floating-icons:nth-child(1) {
+        bottom: 5px !important;
+        right: 2px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
+    .floating-icons:nth-child(2) {
+        top: 70% !important;
+        right: 5px !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+    
+    .floating-icons:nth-child(3) {
+        top: 25% !important;
+        right: 10% !important;
+        width: 15px !important;
+        height: 15px !important;
     }
 }
 
